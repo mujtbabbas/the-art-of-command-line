@@ -6,6 +6,7 @@
 
 *Note: I'm planning to revise this and looking for a new co-author to help with expanding this into a more comprehensive guide. While it's very popular, it could be broader and a bit deeper. If you like to write and are close to being an expert on this material and willing to consider helping, please drop me a note at josh (0x40) holloway.com. –[jlevy](https://github.com/jlevy), [Holloway](https://www.holloway.com). Thank you!*
 
+- [About This Standalone Edition](#about-this-standalone-edition)
 - [Meta](#meta)
 - [Basics](#basics)
 - [Everyday use](#everyday-use)
@@ -30,6 +31,20 @@ Some of this
 on [Quora](http://www.quora.com/What-are-some-time-saving-tips-that-every-Linux-user-should-know),
 but it has since moved to GitHub, where people more talented than the original author have made numerous improvements.
 [**Please submit a question**](https://airtable.com/shrzMhx00YiIVAWJg) if you have a question related to the command line. [**Please contribute**](/CONTRIBUTING.md) if you see an error or something that could be better!
+
+## About This Standalone Edition
+
+- **Main repository:** [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line)
+- **Based on version:** upstream commit `6b50745d2e788add2e8f1ed29010e72659a9a074` (snapshotted 2026-10-20; upstream HEAD dated 2023-07-12)
+- **This edition:** v1.1.0 (v1.0.0 = clean baseline of the upstream version above)
+- **What was done:** Converted from a fork into a standalone repository (fresh history, baseline commit), then enhanced in place by Syed Mujtaba Abbas.
+- **Enhancements in this edition (v1.1.0):**
+  - This About section, with full upstream credit and version provenance
+  - `ENHANCEMENTS.md` — per-version changelog of everything changed in this edition
+  - `.github/dependabot.yml` — weekly GitHub Actions dependency updates
+  - `.markdownlint.json` + `.github/workflows/markdown-check.yml` — markdown linting automation for contributions
+  - `.editorconfig` — standard editor settings (UTF-8, LF, 2-space indent)
+- **Credit & licence:** All original work belongs to jlevy and the upstream authors and translators. No standalone licence file exists in the upstream tree; the licence is preserved exactly as declared in this README's License section — Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). This edition adds the enhancements listed above only.
 
 ## Meta
 
